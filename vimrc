@@ -4,6 +4,7 @@ syntax enable
 set tabstop=4 "visual spaces per tab char
 set softtabstop=4 "spaces created by Tab key
 set expandtab "Tab creates spsaces
+set shiftwidth=4 "width of indentation
 
 filetype indent on "load filetype-specific indent files
 
@@ -17,8 +18,10 @@ set showmatch "highlight matching parens
 
 set incsearch "search as typing
 set hlsearch "highlight matches
+set ignorecase "case insensitive matching
 
-set foldenable
+set foldmethod=indent "fold at indent level
+
 "vertical moves still work with line breaks
 nnoremap j gj
 nnoremap k gk
