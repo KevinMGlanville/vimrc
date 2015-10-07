@@ -1,6 +1,9 @@
 "basic settings
 syntax enable
 
+"colorscheme
+colorscheme desert
+
 set tabstop=4 "visual spaces per tab char
 set softtabstop=4 "spaces created by Tab key
 set expandtab "Tab creates spsaces
