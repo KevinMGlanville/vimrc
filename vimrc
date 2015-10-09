@@ -4,6 +4,9 @@ syntax enable
 "colorscheme
 colorscheme desert
 
+"fix windows gVim backspace behavior
+set backspace=indent,eol,start
+
 set tabstop=4 "visual spaces per tab char
 set softtabstop=4 "spaces created by Tab key
 set expandtab "Tab creates spsaces
