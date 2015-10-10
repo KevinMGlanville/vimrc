@@ -7,6 +7,10 @@ colorscheme desert
 "fix windows gVim backspace behavior
 set backspace=indent,eol,start
 
+"align multiple args and array defs
+set cinoptions=(0
+set cinoptions=[0
+
 set tabstop=4 "visual spaces per tab char
 set softtabstop=4 "spaces created by Tab key
 set expandtab "Tab creates spsaces
@@ -26,7 +30,6 @@ set incsearch "search as typing
 set hlsearch "highlight matches
 set ignorecase "case insensitive matching
 
-set foldmethod=indent "fold at indent level
 
 "vertical moves still work with line breaks
 nnoremap j gj
