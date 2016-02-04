@@ -7,6 +7,10 @@ colorscheme desert
 "fix windows gVim backspace behavior
 set backspace=indent,eol,start
 
+"remove toolbar and menu from gvim
+set guioptions-=T
+set guioptions-=m
+
 "align multiple args and array defs
 set cinoptions=(0
 set cinoptions=[0
